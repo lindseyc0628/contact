@@ -1,0 +1,78 @@
+<!DOCTYPE html> 
+<html>
+<head>
+    <link rel="stylesheet" href="styles/rafting.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device=width,initial-scale=1.0">
+</head>
+<body>
+    <header> <img src="https://byui-cse.github.io/wdd130-ww-course/resources/images/logos/Rapids_logo2.jpg" alt="Rafting"></header>
+<main>
+    <form action="action_page.php" method="POST">
+
+        <div>
+            <label for="fname">Enter your name:</label>
+            <input type="text" id="fname" name="fname" required>
+        </div>
+
+        <br>
+
+        <div>
+            <label for="lname">Enter your email:</label>
+            <input type="text" id="lname" name="lname" required>
+        </div>
+
+        <br>
+
+        <div>
+            <label for="pass">What is the purpose of your inquiry?:</label>
+            <input type="password" id="pass" name="pass" maxlength="12" required>
+        </div>
+
+        <br>
+
+        <div>
+            <label for="email">What are CSS selectors?:</label>
+            <input type="email" id="email" name="email">
+        </div>
+
+        <br>
+
+        <div>
+            <label for="contact">Purpose of your message:</label>
+            <select id="contact" name="contact">
+                <option value="general">General Inquiry</option>
+                <option value="reservation">Reservation Question</option>
+                <option value="website">Website Suggestion</option>
+                <label for="comment">comment:</label>
+                <textarea id="comment" rows="3" cols="25"></textarea><br>
+        
+                <label for="subscribe">Subscribe to our monthly Newsletter!:</label>
+                <input type="checkbox" id="subscribe"><br>
+        
+            </select>
+        </div>
+        
+        <br>
+        <br>
+
+        <div>
+            <input type="submit">
+        </div>
+
+    </form>
+</main>
+<footer>©️2024 Turbo Rafting Lindsey Choi</footer>
+<nav class="Social Links">
+    <a href="https://www.facebook.com/"><ion-icon name="logo-facebook"></ion-icon></a>
+    
+    <a href="https://twitter.com/"><ion-icon name="logo-twitter"></ion-icon></a>
+        
+    <a href="https://www.instagram.com/"> <ion-icon name="logo-instagram"></ion-icon></a>
+       
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</nav>
+</body>
+
+</html>
